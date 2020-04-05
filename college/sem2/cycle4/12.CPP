@@ -48,6 +48,12 @@ void main() {
 	clrscr();
 	matrix m1, m2;
 	m1.get();   m2.get();
-	m1+m2;   m1-m2;
+	cout<<"\n1. For Addition\n2. For Subtraction\nEnter your choice: ";
+	cin>>ch;
+	switch (ch) {
+		case 1:   m1+m2;  break;
+		case 2:   m1-m2;  break;
+		default:  cout<<"Wrong choice.";  break;
+	}
 	getch();
 }
