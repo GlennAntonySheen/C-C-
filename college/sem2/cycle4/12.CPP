@@ -46,6 +46,8 @@ void matrix::operator - (matrix b) {
 
 void main() {
 	clrscr();
+	cout<<"\tMATRIX ADDITION OR SUBTRACTION USING '+' OR '-' RESPECTIVELY\n";
+	cout<<"\t------------------------------------------------------------\n";
 	matrix m1, m2;
 	m1.get();   m2.get();
 	cout<<"\n1. For Addition\n2. For Subtraction\nEnter your choice: ";
