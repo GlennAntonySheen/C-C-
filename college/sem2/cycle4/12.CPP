@@ -4,7 +4,7 @@
 class matrix {
 	int a[20][20], r, c, i, j;
 public:
-	void get() {   //constructor
+	void get() {   
 		cout<<"Enter no of rows and cols.: ";  cin>>r>>c;
 		cout<<"Enter elements:-\n";
 		for (i=0;i<r;i++)    //Getting matrix
