@@ -30,6 +30,8 @@ void string::operator + (string b) {
 
 void main() {
 	clrscr();
+	cout<<"\tCOMPARE AND CONCAT 2 STRINGS USING '==' AND '+' OPERATOR OVERLOADING\n";
+	cout<<"\t--------------------------------------------------------------------\n";
 	string s1, s2;
 	int ch;
 	cout<<"\n1. To compare the strings\n2. To concat the strings\nEnter your choice: ";
