@@ -37,6 +37,8 @@ public:
 
 void main() {
 	clrscr();
+	cout<<"\tBANKING SYSTEM\n";
+	cout<<"\t--------------\n";
 	bank b;
 	int ch;
 	while(1) {
