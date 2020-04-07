@@ -12,7 +12,7 @@ public:
 		}
 		void dispdetails() {
 				cout<<"\nName: "<<name;
-				cout<<"\nsRollno: "<<rollno;
+				cout<<"\nRollno: "<<rollno;
 		}
 };
 
@@ -44,13 +44,13 @@ int main()
 		clrscr();
 		cout<<"\tTOTAL MARK OF N STUDENTS USING MULTILEVEL INHERITANCE\n";
 		cout<<"\t-----------------------------------------------------\n";
-		int n;
-		result a[10];
-		cout<<"\nEnter the no of students:- ";  cin>>n;
-		for (int i=0;i<n;i++)  //getting all student details
-		{  a[i].getdetails();   a[i].getmarks();  }
-		for (i=0, cout<<"\n\n";i<80;i++)  cout<<"-";  //draw a line(-----------)
-		for (i=0;i<n;i++)  //display details
-		{  a[i].dispdetails();  a[i].dispmarks();  a[i].dispresult();  }
+		result a;
+		int i=0;
+		//getting student details
+		a.getdetails();   a.getmarks();
+		//draw a line(-----------)
+		for (cout<<"\n";i<80;i++)  cout<<"-";
+		//displaying student details
+		a.dispdetails();  a.dispmarks();  a.dispresult();
 		getch();
 }
