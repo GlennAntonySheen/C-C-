@@ -42,7 +42,7 @@ public:
 int main()
 {
 		clrscr();
-		cout<<"\tTOTAL MARK OF N STUDENTS USING MULTILEVEL INHERITANCE\n";
+		cout<<"\tTOTAL MARK OF A STUDENTS USING MULTILEVEL INHERITANCE\n";
 		cout<<"\t-----------------------------------------------------\n";
 		result a;
 		int i=0;
