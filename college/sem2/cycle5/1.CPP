@@ -31,8 +31,8 @@ public:
 
 void main() {
 		clrscr();
-		cout<<"\tREAD AND DISPLAY DETAILS OF EMPLOYEE USING SINGLE INHERTANCE\n";
-		cout<<"\t-----------------------------------------------------------\n";
+		cout<<"\tREAD AND DISPLAY DETAILS OF AN EMPLOYEE USING SINGLE INHERTANCE\n";
+		cout<<"\t---------------------------------------------------------------\n";
 		salary s;
 		s.get();
 		s.get_sal_details();
